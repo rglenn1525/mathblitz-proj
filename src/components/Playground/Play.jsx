@@ -52,7 +52,7 @@ function generateQuestion(operation, level) {
 
 
 export default function Play(props) {
-    const question = generateQuestion(props.operation, props.levelNumber);
+    let question = generateQuestion(props.operation, props.levelNumber);
     const [score, setScore] = useState(0);
     const [currentItem, setCurrentItem] = useState(1);
     const [isTimeout, setIsTimeout] = useState("none");
