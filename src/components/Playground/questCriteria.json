@@ -1,0 +1,253 @@
+{
+    "Level 1": {
+        "Digits": 1,
+        "Numbers": 2,
+        "Sign": "p",
+        "Time": 15
+    },
+    "Level 2": {
+        "Digits": 1,
+        "Numbers": 2,
+        "Sign": "p"
+    },
+    "Level 3": {
+        "Digits": 1,
+        "Numbers": 2,
+        "Sign": "pm"
+    },
+    "Level 4": {
+        "Digits": 1,
+        "Numbers": 2,
+        "Sign": "pm"
+    },
+    "Level 5": {
+        "Digits": 1,
+        "Numbers": 2,
+        "Sign": "pm"
+    },
+    "Level 6": {
+        "Digits": 1,
+        "Numbers": 2,
+        "Sign": "pm"
+    },
+    "Level 7": {
+        "Digits": 2,
+        "Numbers": 2,
+        "Sign": "p"
+    },
+    "Level 8": {
+        "Digits": 2,
+        "Numbers": 2,
+        "Sign": "p"
+    },
+    "Level 9": {
+        "Digits": 2,
+        "Numbers": 2,
+        "Sign": "p"
+    },
+    "Level 10": {
+        "Digits": 2,
+        "Numbers": 2,
+        "Sign": "pm"
+    },
+    "Level 11": {
+        "Digits": 2,
+        "Numbers": 2,
+        "Sign": "pm"
+    },
+    "Level 12": {
+        "Digits": 2,
+        "Numbers": 2,
+        "Sign": "pm"
+    },
+    "Level 13": {
+        "Digits": 2,
+        "Numbers": 2,
+        "Sign": "pm"
+    },
+    "Level 14": {
+        "Digits": 2,
+        "Numbers": 3,
+        "Sign": "p"
+    },
+    "Level 15": {
+        "Digits": 2,
+        "Numbers": 3,
+        "Sign": "p"
+    },
+    "Level 16": {
+        "Digits": 2,
+        "Numbers": 3,
+        "Sign": "p"
+    },
+    "Level 17": {
+        "Digits": 2,
+        "Numbers": 3,
+        "Sign": "p"
+    },
+    "Level 18": {
+        "Digits": 2,
+        "Numbers": 3,
+        "Sign": "pm"
+    },
+    "Level 19": {
+        "Digits": 2,
+        "Numbers": 3,
+        "Sign": "pm"
+    },
+    "Level 20": {
+        "Digits": 2,
+        "Numbers": 3,
+        "Sign": "pm"
+    },
+    "Level 21": {
+        "Digits": 2,
+        "Numbers": 3,
+        "Sign": "pm"
+    },
+    "Level 22": {
+        "Digits": 2,
+        "Numbers": 3,
+        "Sign": "pm"
+    },
+    "Level 23": {
+        "Digits": 2,
+        "Numbers": 3,
+        "Sign": "pm"
+    },
+    "Level 24": {
+        "Digits": 2,
+        "Numbers": 3,
+        "Sign": "pm"
+    },
+    "Level 25": {
+        "Digits": 3,
+        "Numbers": 2,
+        "Sign": "p"
+    },
+    "Level 26": {
+        "Digits": 3,
+        "Numbers": 2,
+        "Sign": "p"
+    },
+    "Level 27": {
+        "Digits": 3,
+        "Numbers": 2,
+        "Sign": "p"
+    },
+    "Level 28": {
+        "Digits": 3,
+        "Numbers": 2,
+        "Sign": "p"
+    },
+    "Level 29": {
+        "Digits": 3,
+        "Numbers": 2,
+        "Sign": "p"
+    },
+    "Level 30": {
+        "Digits": 3,
+        "Numbers": 2,
+        "Sign": "p"
+    },
+    "Level 31": {
+        "Digits": 3,
+        "Numbers": 2,
+        "Sign": "pm"
+    },
+    "Level 32": {
+        "Digits": 3,
+        "Numbers": 2,
+        "Sign": "pm"
+    },
+    "Level 33": {
+        "Digits": 3,
+        "Numbers": 2,
+        "Sign": "pm"
+    },
+    "Level 34": {
+        "Digits": 3,
+        "Numbers": 2,
+        "Sign": "pm"
+    },
+    "Level 35": {
+        "Digits": 3,
+        "Numbers": 2,
+        "Sign": "pm"
+    },
+    "Level 36": {
+        "Digits": 3,
+        "Numbers": 2,
+        "Sign": "pm"
+    },
+    "Level 37": {
+        "Digits": 3,
+        "Numbers": 3,
+        "Sign": "p"
+    },
+    "Level 38": {
+        "Digits": 3,
+        "Numbers": 3,
+        "Sign": "p"
+    },
+    "Level 39": {
+        "Digits": 3,
+        "Numbers": 3,
+        "Sign": "p"
+    },
+    "Level 40": {
+        "Digits": 3,
+        "Numbers": 3,
+        "Sign": "p"
+    },
+    "Level 41": {
+        "Digits": 3,
+        "Numbers": 3,
+        "Sign": "p"
+    },
+    "Level 42": {
+        "Digits": 3,
+        "Numbers": 3,
+        "Sign": "p"
+    },
+    "Level 43": {
+        "Digits": 3,
+        "Numbers": 3,
+        "Sign": "pm"
+    },
+    "Level 44": {
+        "Digits": 3,
+        "Numbers": 3,
+        "Sign": "pm"
+    },
+    "Level 45": {
+        "Digits": 3,
+        "Numbers": 3,
+        "Sign": "pm"
+    },
+    "Level 46": {
+        "Digits": 3,
+        "Numbers": 3,
+        "Sign": "pm"
+    },
+    "Level 47": {
+        "Digits": 3,
+        "Numbers": 3,
+        "Sign": "pm"
+    },
+    "Level 48": {
+        "Digits": 3,
+        "Numbers": 3,
+        "Sign": "pm"
+    },
+    "Level 49": {
+        "Digits": 3,
+        "Numbers": 3,
+        "Sign": "pm"
+    },
+    "Level 50": {
+        "Digits": 3,
+        "Numbers": 3,
+        "Sign": "pm"
+    }
+}

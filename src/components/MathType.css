@@ -1,0 +1,27 @@
+.math-type{
+    width: 300px;
+    height: 90%;
+    margin-top: 20px;
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ed1c4a;
+    border-radius: 5px;
+    display: grid;
+    transition: top 250ms ease-out;
+}
+
+h1 {
+    text-align: center;
+    color: #fad143;
+    text-transform: capitalize;
+}
+.header {
+    display: flex;
+}
+.backButton {
+    margin: 30px 35px 0px 20px;
+    font-size: 1.5rem;
+    color: #fad143;
+}

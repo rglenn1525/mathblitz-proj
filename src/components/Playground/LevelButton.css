@@ -1,0 +1,18 @@
+.level-button {
+    width: 70px;
+    background-color: #fad143;
+    position: relative;
+    color: auto;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    font-size: 2rem;
+    padding: 20px;
+    box-shadow: 5px 5px 2px 2px #cda516;
+    font-family: "ConcertOne";
+}
+.level-button:active {
+    left: 2px;
+    top: 2px;
+    box-shadow: 1px 1px 2px 2px #cda516;
+}

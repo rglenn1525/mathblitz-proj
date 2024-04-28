@@ -1,0 +1,31 @@
+.play {
+    height: 100%;
+    background-color: #e3545c;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-image: url('../../assets/bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment:fixed;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    margin: 20px;
+    font-family: "ConcertOne";
+}
+
+.level-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 25px;
+    justify-content: center;
+    font-family: "ConcertOne";
+}
+h2 {
+    text-align: center;
+    
+}

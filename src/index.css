@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "ConcertOne";
+  src: local("ConcertOne"), url('./assets/fonts/ConcertOne-Regular.ttf');
+}
+
+:root {
+  height: 100%;
+  background-color: #e3545c;
+  background-image: url('./assets/bg.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment:fixed;
+  padding: 0px;
+  margin: 20px;
+  user-select: none;
+  
+  font-family: "ConcertOne";
+}
+
+a {
+  text-decoration: none;
+}
+
+

@@ -1,0 +1,17 @@
+.optionButton {
+    background-color: #fad143;
+    position: relative;
+    color: auto;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    font-size: 1.5rem;
+    padding: 10px;
+    box-shadow: 5px 5px 2px 2px #cda516;
+    font-family: "ConcertOne";
+}
+.optionButton:active {
+    left: 2px;
+    top: 2px;
+    box-shadow: 1px 1px 2px 2px #cda516;
+}

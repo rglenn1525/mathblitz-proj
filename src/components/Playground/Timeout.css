@@ -1,0 +1,86 @@
+.timeout {
+    width: 100%;
+    height: 100%;
+    background-color: #e3545c;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-image: url('../../assets/bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment:fixed;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    margin: 0px;
+    z-index:1;
+}
+.timeout-container {
+    height: 70%;
+    background-color: #ed1c4a;
+    border-radius: 5px;
+    position: relative;
+    left: 50%;
+    top: 50px;
+    transform: translateX(-50%);
+}
+
+@media only screen and (max-width: 500px) {
+    .tm-ct-2 {
+        display: block;
+    }
+    .tm-ct-3 {
+        width: 100%;
+    }
+    .tm-btn {
+        margin: 20px;
+    }
+    .timeout-container {
+        width: 90%;
+    }
+    .imgtim {
+        width: 60%;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+@media only screen and (min-width: 500px) {
+    .tm-ct-2 {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .tm-btn {
+        margin-right: 20px;
+    }
+    .timeout-container {
+        width: 50%;
+    }
+    .imgtim {
+        width: 90%;
+    }
+}
+
+.tm-ct-3 {
+    display: grid;
+    justify-content: center;
+}
+.tm-btn {
+    width: 50px;
+    height: 50px;
+    background-color: #fad143;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 5px 5px 2px 2px #cda516;
+    font-family: "ConcertOne";
+    border: none;
+    position: relative;
+    font-size: 1.5rem;
+}
+.tm-btn:active {
+    left: 2px;
+    top: 2px;
+    box-shadow: 1px 1px 2px 2px #cda516;
+}

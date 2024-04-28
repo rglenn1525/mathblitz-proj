@@ -1,0 +1,31 @@
+.home {
+    width: 100%;
+}
+
+.options {
+    display: grid;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.logo {
+    width: 15rem;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.settings-icon {
+    font-size: 2rem;
+    position: relative;
+}
+
+.home_icon {
+    font-size: 2rem;
+    color: white;
+}
+
+.play-button {
+    width: 70%;
+}

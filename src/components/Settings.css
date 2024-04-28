@@ -1,0 +1,47 @@
+.settings {
+    width: 300px;
+    height: 90%;
+    margin-top: 20px;
+    position: absolute;
+    top: -100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ed1c4a;
+    border-radius: 5px;
+    display: block;
+    transition: top 250ms ease-out;
+}
+.settings-ct1 {
+    border-bottom: 1px solid rgb(248, 111, 111);
+}
+.settings-btn {
+    width: 100%;
+    height: 50px;
+    text-align: left;
+    font-family: "ConcertOne";
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #ed1c4a;
+    border: none;
+    border-bottom: 1px solid rgb(248, 111, 111);
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+}
+.toggle {
+    width: 45px;
+    height: 25px;
+    border-radius: 20px;
+    background-color: rgb(189, 188, 188);
+    transition: all 250ms ease;
+}
+.switch {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 1.5px;
+    transition: all 250ms ease-out;
+}
