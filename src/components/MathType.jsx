@@ -32,7 +32,7 @@ function MathType({isOpen, setToggleMathType}) {
                     <h1>Operations</h1>
                 </div>
 
-                <Link to="/addition">
+                <Link to="/mathblitz-proj/addition">
                     <Button clicked={()=>click.play()} style={buttonStyle} 
                         buttonText = {
                             <>
@@ -43,7 +43,7 @@ function MathType({isOpen, setToggleMathType}) {
                     />
                 </Link>
 
-                <Link to='/subtraction'>
+                <Link to='/mathblitz-proj/subtraction'>
                     <Button clicked={()=>click.play()} style={buttonStyle} 
                         buttonText = {
                             <>
@@ -54,7 +54,7 @@ function MathType({isOpen, setToggleMathType}) {
                     />
                 </Link>
 
-                <Link to="multiplication">
+                <Link to="/mathblitz-proj/multiplication">
                     <Button clicked={()=>click.play()} style={buttonStyle} 
                         buttonText = {
                             <>
@@ -65,7 +65,7 @@ function MathType({isOpen, setToggleMathType}) {
                     />
                 </Link>
 
-                <Link to="division">
+                <Link to="//mathblitz-proj/division">
                     <Button clicked={()=>click.play()} style={buttonStyle} 
                         buttonText = {
                             <>

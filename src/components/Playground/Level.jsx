@@ -10,7 +10,7 @@ export default function Play({operation})  {
     const levels = [];
 
     for (let i = 1; i <= 50; i++) {
-        levels.push(<Link to={"/"+operation+"/"+i}><LevelButton clicked={() => click.play()} levelNumber={i}/></Link>);
+        levels.push(<Link to={"/mathblitz-proj/"+operation+"/"+i}><LevelButton clicked={() => click.play()} levelNumber={i}/></Link>);
     }
 
     return (

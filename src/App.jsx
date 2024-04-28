@@ -12,7 +12,7 @@ function App() {
     const routePlay = (operation) => {
         const array = [];
         for (let i = 1; i <= 50; i++) {
-        array.push(<Route path={"/"+operation+"/"+i} element={<Play operation={operation} levelNumber={i}/>}/>)
+        array.push(<Route path={"/mathblitz-proj/"+operation+"/"+i} element={<Play operation={operation} levelNumber={i}/>}/>)
         }
         return array;
     }
@@ -25,7 +25,7 @@ function App() {
             <Routes>
               {operations.map(operation => (
                 <>
-                <Route path={"/"+operation} element={<Level operation={operation}/>}/>
+                <Route path={"/mathblitz-proj/"+operation} element={<Level operation={operation}/>}/>
                 {routePlay(operation)}
                 </>
               ))}

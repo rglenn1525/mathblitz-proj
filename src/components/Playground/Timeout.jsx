@@ -18,10 +18,10 @@ export default function Timeout(props) {
                         <div className="tm-btns">
                             
                                 <button className="tm-btn" onClick={()=>window.location.reload()}><FontAwesomeIcon icon={faRotateLeft}/></button>
-                                <Link to={'/'+props.operation}>
+                                <Link to={'/mathblitz-proj/'+props.operation}>
                                     <button className="tm-btn"><FontAwesomeIcon icon={faBars}/></button>
                                 </Link>
-                                <Link to={'/'+props.operation+'/'+(props.levelNumber+1)}>
+                                <Link to={'/mathblitz-proj/'+props.operation+'/'+(props.levelNumber+1)}>
                                     <button className="tm-btn" onClick={()=>props.restartTimer("none")} onBlur={()=>window.location.reload()}><FontAwesomeIcon icon={faForward}/></button>
                                 </Link>
                         </div>
