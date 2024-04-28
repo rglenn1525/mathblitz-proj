@@ -57,7 +57,7 @@
     height: 50px;
     background-color: rgb(44, 126, 249);
     border-radius: 10px;
-    transition: all 5s ease;
+    transition: all 500ms linear;
 }
 .running {
     width: 490px;

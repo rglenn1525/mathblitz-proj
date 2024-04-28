@@ -1,9 +1,8 @@
 import './Play.css'
-import { useState , useRef, useEffect, useMemo} from 'react'
+import { useState , useReducer} from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDeleteLeft, faHome } from '@fortawesome/free-solid-svg-icons'
 import questCriteria from "./questCriteria.json"
-import Countdown from './Countdown'
 import Timeout from './Timeout'
 import Running from './Running'
 import { Link } from 'react-router-dom'

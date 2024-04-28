@@ -17,12 +17,11 @@ export default function Timeout(props) {
                         <div>Finished questions: {props.itemFinished}</div>
                         <div className="tm-btns">
                             
-                                <button className="tm-btn" onClick={()=>window.location.reload()}><FontAwesomeIcon icon={faRotateLeft}/></button>
                                 <Link to={'/mathblitz-proj/'+props.operation}>
-                                    <button className="tm-btn"><FontAwesomeIcon icon={faBars}/></button>
+                                    <button className="tm-btn">Play again</button>
                                 </Link>
-                                <Link to={'/mathblitz-proj/'+props.operation+'/'+(props.levelNumber+1)}>
-                                    <button className="tm-btn" onClick={()=>props.restartTimer("none")} onBlur={()=>window.location.reload()}><FontAwesomeIcon icon={faForward}/></button>
+                                <Link to='/mathblitz/'>
+                                    <button className="tm-btn">Home</button>
                                 </Link>
                         </div>
                     </div>

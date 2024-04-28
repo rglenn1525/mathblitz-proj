@@ -34,7 +34,7 @@
         width: 100%;
     }
     .tm-btn {
-        margin: 20px;
+        margin: 100%;
     }
     .timeout-container {
         width: 90%;
@@ -68,16 +68,17 @@
     justify-content: center;
 }
 .tm-btn {
-    width: 50px;
+    width: 100%;
     height: 50px;
     background-color: #fad143;
-    border-radius: 50%;
+    border-radius: 10px;
     padding: 10px;
     box-shadow: 5px 5px 2px 2px #cda516;
     font-family: "ConcertOne";
     border: none;
     position: relative;
     font-size: 1.5rem;
+    margin-top: 20px;
 }
 .tm-btn:active {
     left: 2px;
