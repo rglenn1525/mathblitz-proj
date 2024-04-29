@@ -19,7 +19,7 @@ export default function Timeout(props) {
             <div className="timeout-container">
                 <h1>{props.tm ? "Time is out!" : "Wow! 10 items in few seconds"}</h1>
                 <div className="tm-ct-2">
-                    <img style={{transform: (props.tm ? "none" : "scaleX(-1)")}} src={props.tm ? timeoutImg : ok} className="imgtim"/>
+                    <img style={{transform: ((props.score == 10) ? "none" : "scaleX(-1)")}} src={(props.score == 10) ? timeoutImg : ok} className="imgtim"/>
                     <div className="tm-ct-3">
                         <div>Score: {props.score}</div>
                         <div>Finished questions: {props.itemFinished}</div>
