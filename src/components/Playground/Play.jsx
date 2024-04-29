@@ -6,6 +6,7 @@ import questCriteria from "./questCriteria.json"
 import Timeout from './Timeout'
 import Running from './Running'
 import { Link } from 'react-router-dom'
+import keysrc from '../../assets/key.mp3'
 
 function getRndInteger(min, max) {
     return Math.floor(Math.random()*(max-min))+min;
@@ -57,11 +58,14 @@ export default function Play(props) {
     const [isTimeout, setIsTimeout] = useState("none");
     //const [timeLeft, setTimeLeft] = useState(10);
 
+    const key = new Audio(keysrc);
+
     let answer = "";
 
     const keys = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "-"];
 
     function onClickKey(event) {
+        key.play();
         answer += event.target.value;
         let d = document.querySelector("#answer");
         d.innerText = answer;
@@ -101,7 +105,7 @@ export default function Play(props) {
                      operation={props.operation} 
                      levelNumber={props.levelNumber} 
                      restartTimer={setIsTimeout}
-                     tm={(currentItem <= 10)}
+                     tm={(!currentItem <= 10)}
             />
             <div className='play-header'>
                 <Link to="..">
