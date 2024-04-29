@@ -105,7 +105,7 @@ export default function Play(props) {
                      operation={props.operation} 
                      levelNumber={props.levelNumber} 
                      restartTimer={setIsTimeout}
-                     tm={(!currentItem <= 10)}
+                     tm={(currentItem <= 10)}
             />
             <div className='play-header'>
                 <Link to="..">
